@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseno_Interfaz_Tarea_1._2.MainPage">
+
+    <StackLayout>
+        <Label Text="Nombre" HorizontalOptions="Center" Margin="0,30,290,-15" FontSize="15" TextColor="Black" />
+        <Frame BackgroundColor="LightSlateGray" Padding="5" Margin="15">
+            <Entry Text="{Binding Nombre}"/>
+        </Frame>
+
+        <Label Text="Apellido" HorizontalOptions="Center" Margin="0,30,290,-15" FontSize="15" TextColor="Black" />
+        <Frame BackgroundColor="LightSlateGray" Padding="5" Margin="15">
+            <Entry Text="{Binding Apellido}"/>
+        </Frame>
+
+        <Label Text="Edad" HorizontalOptions="Center" Margin="0,30,290,-15" FontSize="15" TextColor="Black" />
+        <Frame BackgroundColor="LightSlateGray" Padding="5" Margin="15">
+            <Entry Text="{Binding Edad}"/>
+        </Frame>
+
+        <Label Text="Correo" HorizontalOptions="Center" Margin="0,30,290,-15" FontSize="15" TextColor="Black" />
+        <Frame BackgroundColor="LightSlateGray" Padding="5" Margin="15">
+            <Entry Text="{Binding Correo}"/>
+        </Frame>
+
+        <Button Text="Enviar" Margin="10" Background="cyan" Clicked="Button_Clicked"/>
+    </StackLayout> 
+
+</ContentPage>

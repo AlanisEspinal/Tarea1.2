@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diseno Interfaz Tarea 1.2", "Diseno Interfaz Tarea 1.2.csproj", "{30110458-39D2-49EC-B63E-09F9630B256D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30110458-39D2-49EC-B63E-09F9630B256D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30110458-39D2-49EC-B63E-09F9630B256D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30110458-39D2-49EC-B63E-09F9630B256D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30110458-39D2-49EC-B63E-09F9630B256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30110458-39D2-49EC-B63E-09F9630B256D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30110458-39D2-49EC-B63E-09F9630B256D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4250B95D-266C-4D68-A7F8-E5D7092616DB}
+	EndGlobalSection
+EndGlobal
